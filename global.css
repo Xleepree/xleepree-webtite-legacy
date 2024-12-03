@@ -3,6 +3,7 @@
 * {
     font-family: "JetBrains Mono", mono;
 }
+
 body {
     padding: 0.5em;
     margin: 1em;
@@ -11,7 +12,6 @@ body {
     border: 2px black dotted;
     padding: 1em;
     margin: 0 auto 1em auto;
-
     max-width: 50em;
 }
 
