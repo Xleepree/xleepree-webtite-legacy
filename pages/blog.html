@@ -2,14 +2,15 @@
 <html>
     <head>
         <title>blog | xleepree.pages.dev</title>
-        <link
-            rel="icon"
-            type="image/x-icon"
-            href="../images/icons/profil-web.ico"
-        />
+        <link rel="icon" type="image/x-icon" href="../images/icons/profil-web.ico"/>
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <link id="stylesheet" rel="stylesheet" href="../css/global.css" />
+        <script src="../js/theme-handler.js"></script>
     </head>
+
+    <script>
+        window.onload = checkThemePages() 
+      </script>
 
     <body>
 
@@ -30,14 +31,13 @@
 
         <div class="container">
             <h2>themes</h2>
-            <p><small>work in progress, will not save</small></p>
       
             <button
-            onclick="document.getElementById('stylesheet').href='../css/global.css'">light
+            onclick="setLightThemePages()">light
             </button>
       
             <button
-            onclick="document.getElementById('stylesheet').href='../css/global-dark.css'">dark
+            onclick="setDarkThemePages()">dark
             </button>
       
           </div>

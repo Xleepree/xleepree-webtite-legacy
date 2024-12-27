@@ -5,8 +5,12 @@
     <title>home | xleepree.pages.dev</title>
     <link rel="icon" type="image/x-icon" href="images/icons/profil-web.ico">
     <link id="stylesheet" rel="stylesheet" href="css/global.css">
+    <script src="js/theme-handler.js"></script>
   </head>
 
+  <script>
+    window.onload = checkThemeIndex() 
+  </script>
 
   <body>
 
@@ -27,14 +31,13 @@
 
     <div class="container">
       <h2>themes</h2>
-      <p><small>work in progress, will not save</small></p>
 
       <button
-      onclick="document.getElementById('stylesheet').href='css/global.css'">light
+      onclick="setLightThemeIndex()">light
       </button>
 
       <button
-      onclick="document.getElementById('stylesheet').href='css/global-dark.css'">dark
+      onclick="setDarkThemeIndex()">dark
       </button>
 
     </div>
@@ -70,7 +73,7 @@
       <ul>
         <li>if you couldn't already tell, this website is a work in progress</li>
         <li>this website has not been designed to be mobile friendly in any way but it doesn't really matter anyways because i checked and it looks <i>somewhat</i> ok (the navigation is a bit weird)</li>
-        <li><b>ENABLE JAVASCRIPT</b><br>this website uses javascript, enable it please</li>
+        <li><b>ENABLE JAVASCRIPT</b><br>this website uses javascript and things will not work if it's disabled</li>
       </ul>
     </div>
     

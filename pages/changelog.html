@@ -6,7 +6,12 @@
   <link rel="icon" type="image/x-icon" href="../images/icons/profil-web.ico" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <link id="stylesheet" rel="stylesheet" href="../css/global.css" />
+  <script src="../js/theme-handler.js"></script>
 </head>
+
+<script>
+  window.onload = checkThemePages() 
+</script>
 
 <body>
 
@@ -27,14 +32,13 @@
 
   <div class="container">
     <h2>themes</h2>
-    <p><small>work in progress, will not save</small></p>
 
     <button
-    onclick="document.getElementById('stylesheet').href='../css/global.css'">light
+    onclick="setLightThemePages()">light
     </button>
 
     <button
-    onclick="document.getElementById('stylesheet').href='../css/global-dark.css'">dark
+    onclick="setDarkThemePages()">dark
     </button>
 
   </div>
@@ -49,6 +53,14 @@
       </h2>
     <p>changes to the website are posted here</p>
     <hr>
+
+    <article>
+      <h3>theme saving</h3>
+      <p><small>December 27th, 2024 at 1:30 AM</small></p>
+      <p>the themes save now<br>
+      i used <i>sessionStorage</i> so it doesn't save between tabs but for as long as you're in a tab it should save what theme you have<br>
+      making it so it saves between tabs would use cookies i think and idk how to do that yet</p>
+    </article>
 
     <article>
       <h3>themes</h3>
