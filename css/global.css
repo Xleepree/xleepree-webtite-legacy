@@ -8,11 +8,18 @@ body {
     padding: 0.5em;
     margin: 1em;
 }
+
 .container {
-    border: 2px black dotted;
+    border-radius: 15px;
+    border: 2px solid black;
     padding: 1em;
     margin: 0 auto 1em auto;
     max-width: 50em;
+    background-image: linear-gradient(rgb(230, 230, 230), white);
+}
+
+button {
+    background-color: rgb(230, 230, 230);
 }
 
 li {

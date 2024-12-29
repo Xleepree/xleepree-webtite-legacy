@@ -5,29 +5,29 @@
 }
 
 html {
-    background-color: rgb(48, 48, 48);
+    background-color: black;
 }
 
 h1 {
-    color: white;
+    color: rgb(255, 231, 14);
 }
 
 p {
-    color: white;
+    color: rgb(255, 231, 14);
 }
 
 h2 {
-    color: white;
+    color: rgb(255, 231, 14);
 }
 
 h3 {
-    color: white;
+    color: rgb(255, 231, 14);
 }
 
 button {
-    color: white;
-    background-color: rgb(65, 65, 65);
-    border-color: white;
+    color: rgb(255, 231, 14);
+    background-color: rgb(14, 83, 139);
+    border-color: rgb(255, 231, 14);
 }
 
 body {
@@ -40,32 +40,32 @@ body {
     padding: 1em;
     margin: 0 auto 1em auto;
     max-width: 50em;
-    background-image: linear-gradient(rgb(41, 41, 41), rgb(65, 65, 65))
+    background-color: rgb(14, 83, 139);
 }
 
 li {
     list-style-type: disc;
-    color: white;
+    color: rgb(255, 231, 14);
 }
 
 a:link {
-    color: rgb(218, 95, 2);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 a:visited {
-    color: rgb(218, 94, 0);
+    color: rgb(255, 255, 255);
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(255, 102, 0);
+    color: rgb(255, 231, 14);
     font-weight: bold;
     text-decoration: underline;
 }
 
 a:active {
-    color: rgb(255, 130, 46);
+    color: rgb(255, 231, 14);
     font-weight: bolder;
     text-decoration: none;
 }

@@ -5,56 +5,38 @@
 }
 
 html {
-    background-color: rgb(48, 48, 48);
-}
-
-h1 {
-    color: white;
-}
-
-p {
-    color: white;
-}
-
-h2 {
-    color: white;
-}
-
-h3 {
-    color: white;
-}
-
-button {
-    color: white;
-    background-color: rgb(65, 65, 65);
-    border-color: white;
+    background-image: linear-gradient(to right, rgb(255, 128, 181),rgb(255, 155, 152),rgb(255, 193, 152), rgb(255, 231, 152), white);
 }
 
 body {
     padding: 0.5em;
     margin: 1em;
 }
+
 .container {
     border-radius: 15px;
-    border: 2px white solid;
+    border: 2px solid black;
     padding: 1em;
     margin: 0 auto 1em auto;
     max-width: 50em;
-    background-image: linear-gradient(rgb(41, 41, 41), rgb(65, 65, 65))
+    background-image: linear-gradient(rgb(114, 143, 236),rgb(242, 146, 255),rgb(255, 128, 181),rgb(255, 155, 152),rgb(255, 193, 152), rgb(255, 231, 152), white);
+}
+
+button {
+    background-color: rgb(255, 152, 83)
 }
 
 li {
     list-style-type: disc;
-    color: white;
 }
 
 a:link {
-    color: rgb(218, 95, 2);
+    color: rgb(204, 89, 0);
     text-decoration: none;
 }
 
 a:visited {
-    color: rgb(218, 94, 0);
+    color: rgb(204, 89, 0);
     text-decoration: none;
 }
 
