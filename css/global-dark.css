@@ -28,12 +28,19 @@ button {
     color: white;
     background-color: rgb(65, 65, 65);
     border-color: white;
+    border-radius: 15px;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: rgb(41, 41, 41);
 }
 
 body {
     padding: 0.5em;
     margin: 1em;
 }
+
 .container {
     border-radius: 15px;
     border: 2px white solid;
@@ -51,6 +58,7 @@ li {
 a:link {
     color: rgb(218, 95, 2);
     text-decoration: none;
+    transition: font-size 0.5s;
 }
 
 a:visited {
@@ -62,6 +70,7 @@ a:hover {
     color: rgb(255, 102, 0);
     font-weight: bold;
     text-decoration: underline;
+    font-size: 130%;
 }
 
 a:active {

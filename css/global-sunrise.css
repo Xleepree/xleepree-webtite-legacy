@@ -23,7 +23,14 @@ body {
 }
 
 button {
-    background-color: rgb(255, 152, 83)
+    background-color: rgb(255, 152, 83);
+    color: black;
+    border-radius: 15px;
+    transition: background-color 0.5s;
+}
+
+button:hover {
+    background-color: rgb(255, 119, 203);
 }
 
 li {
@@ -31,23 +38,25 @@ li {
 }
 
 a:link {
-    color: rgb(204, 89, 0);
+    color: rgb(0, 105, 109);
     text-decoration: none;
+    transition: font-size 0.5s;
 }
 
 a:visited {
-    color: rgb(204, 89, 0);
+    color: rgb(0, 105, 109);
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(255, 102, 0);
+    color: rgb(97, 38, 38);
     font-weight: bold;
     text-decoration: underline;
+    font-size: 130%;
 }
 
 a:active {
-    color: rgb(255, 130, 46);
+    color: rgb(97, 38, 38);
     font-weight: bolder;
     text-decoration: none;
 }
