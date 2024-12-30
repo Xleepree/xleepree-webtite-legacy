@@ -30,6 +30,7 @@ button {
     border-color: rgb(255, 231, 14);
     border-radius: 15px;
     transition: background-color 0.5s;
+    margin: 5px;
 }
 
 button:hover {
@@ -40,6 +41,13 @@ body {
     padding: 0.5em;
     margin: 1em;
 }
+
+.banner {
+    padding: 1em;
+    margin: 0 auto 1em auto;
+    max-width: 50em;
+}
+
 .container {
     border-radius: 15px;
     border: 2px white solid;

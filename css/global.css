@@ -18,11 +18,18 @@ body {
     background-image: linear-gradient(rgb(214, 214, 214), white);
 }
 
+.banner {
+    padding: 1em;
+    margin: 0 auto 1em auto;
+    max-width: 50em;
+}
+
 button {
     background-color: rgb(214, 214, 214);
     border-radius: 15px;
     color: black;
     transition: background-color 0.5s;
+    margin: 5px;
 }
 
 button:hover {

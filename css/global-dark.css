@@ -30,6 +30,7 @@ button {
     border-color: white;
     border-radius: 15px;
     transition: background-color 0.5s;
+    margin: 5px;
 }
 
 button:hover {
@@ -47,7 +48,13 @@ body {
     padding: 1em;
     margin: 0 auto 1em auto;
     max-width: 50em;
-    background-image: linear-gradient(rgb(41, 41, 41), rgb(65, 65, 65))
+    background-image: linear-gradient(rgb(41, 41, 41), rgb(65, 65, 65));
+}
+
+.banner {
+    padding: 1em;
+    margin: 0 auto 1em auto;
+    max-width: 50em;
 }
 
 li {
