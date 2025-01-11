@@ -5,7 +5,7 @@
 }
 
 html {
-    background-color: rgb(48, 48, 48);
+    background-image: linear-gradient(rgb(73, 73, 73), rgb(41, 41, 41));
 }
 
 h1 {
@@ -47,14 +47,24 @@ body {
     border: 2px white solid;
     padding: 1em;
     margin: 0 auto 1em auto;
-    max-width: 50em;
+    max-width: 55em;
     background-image: linear-gradient(rgb(41, 41, 41), rgb(65, 65, 65));
+}
+
+.footer {
+    border: 2px solid white;
+    margin: 0 auto 1em auto;
+    border-radius: 0px 0px 15px 15px;
+    max-width: 50em;
+    text-align: center;
+    background-image: linear-gradient(rgb(41, 41, 41), rgb(65, 65, 65));
+    padding: 1em;
 }
 
 .banner {
     padding: 1em;
     margin: 0 auto 1em auto;
-    max-width: 50em;
+    max-width: 55em;
 }
 
 li {

@@ -45,7 +45,7 @@ body {
 .banner {
     padding: 1em;
     margin: 0 auto 1em auto;
-    max-width: 50em;
+    max-width: 55em;
 }
 
 .container {
@@ -53,8 +53,18 @@ body {
     border: 2px white solid;
     padding: 1em;
     margin: 0 auto 1em auto;
-    max-width: 50em;
+    max-width: 55em;
     background-color: rgb(14, 83, 139);
+}
+
+.footer {
+    border: 2px solid white;
+    margin: 0 auto 1em auto;
+    border-radius: 0px 0px 15px 15px;
+    max-width: 50em;
+    text-align: center;
+    background-color: rgb(14, 83, 139);
+    padding: 1em;
 }
 
 li {
