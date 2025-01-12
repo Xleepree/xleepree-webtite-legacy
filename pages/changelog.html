@@ -25,9 +25,9 @@
 
   <div class="banner">
     <img id="banner" style="object-fit: contain; 
-    max-width: 50em; 
+    max-width: 55em; 
     border-radius: 15px; 
-    border: 2px solid black;
+    box-shadow: 0px 0.5em 10px;
     width: 100%;
     height: 100%;" 
     src="../images/banner.png">
@@ -43,6 +43,12 @@
       </h2>
     <p>changes to the website are posted here</p>
     <hr>
+
+    <article>
+      <h3>solarized</h3>
+      <p><small>January 11th, 2025</small></p>
+      <p>added solarized themes and changed the website design (again)</p>
+    </article>
 
     <article>
       <h3>banner</h3>
@@ -70,7 +76,8 @@
         <li>the overall website design</li>
         <li>some minor stuff</li>
       </ul>
-      <p>the sunset theme looks kinda cool</p>
+      <p>the sunset theme looks kinda cool<br>
+      <small>seriously? <i>sunset?</i> my god i'm so dumb</small></p>
     </article>
 
     <article>
@@ -197,20 +204,29 @@
 
   <div class="footer">
     <button
-    onclick="setLightThemeIndex()">light
+    onclick="setLightThemePages()">light
     </button>
 
     <button
-    onclick="setDarkThemeIndex()">dark
+    onclick="setDarkThemePages()">dark
     </button>
 
     <button
-    onclick="setHiCfThemeIndex()">high contrast
+    onclick="setHiCfThemePages()">high contrast
     </button>
 
     <button
-    onclick="setSunriseThemeIndex()">sunrise
+    onclick="setSunriseThemePages()">sunrise
     </button>
+
+    <button
+    onclick="setSolarizedLightThemePages()">solarized light
+    </button>
+
+    <button
+    onclick="setSolarizedDarkThemePages()">solarized dark
+    </button>
+
     <hr>
     <p><small>{ © 2024 xleepree :: since nov 3, 2024 :: hosted with cloudflare }</small></p>
     <a href="www.github.com/Xleepree/xleepree_webtite">repository</a> | <a href="mailto:xleepree.pages.mail@gmail.com">contact</a>

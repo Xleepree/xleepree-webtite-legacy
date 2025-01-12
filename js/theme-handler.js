@@ -1,25 +1,31 @@
 function setLightThemeIndex() {
     document.getElementById('stylesheet').href='css/global.css';
-    document.getElementById('banner').style='object-fit: contain; max-width: 55em; border-radius: 15px; border: 2px solid black; width: 100%; height: 100%;';
     sessionStorage.setItem("theme", "light");
 }
 
 function setDarkThemeIndex() {
     document.getElementById('stylesheet').href='css/global-dark.css';
-    document.getElementById('banner').style='object-fit: contain; max-width: 55em; border-radius: 15px; border: 2px solid white; width: 100%; height: 100%;';
     sessionStorage.setItem("theme", "dark");
 }
 
 function setHiCfThemeIndex() {
     document.getElementById('stylesheet').href='css/global-hi-cf.css';
-    document.getElementById('banner').style='object-fit: contain; max-width: 55em; border-radius: 15px; border: 2px solid white; width: 100%; height: 100%;';
     sessionStorage.setItem("theme", "hicf");
 }
 
 function setSunriseThemeIndex() {
     document.getElementById('stylesheet').href='css/global-sunrise.css';
-    document.getElementById('banner').style='object-fit: contain; max-width: 55em; border-radius: 15px; border: 2px solid black; width: 100%; height: 100%;';
     sessionStorage.setItem("theme", "sunrise");
+}
+
+function setSolarizedLightThemeIndex() {
+    document.getElementById('stylesheet').href='css/global-solarized-light.css';
+    sessionStorage.setItem("theme", "solarized-light");
+}
+
+function setSolarizedDarkThemeIndex() {
+    document.getElementById('stylesheet').href='css/global-solarized-dark.css';
+    sessionStorage.setItem("theme", "solarized-dark");
 }
 
 
@@ -29,6 +35,8 @@ function checkThemeIndex() {
     if (storedValue === 'dark') { setDarkThemeIndex();};
     if (storedValue === 'hicf') { setHiCfThemeIndex();};
     if (storedValue === 'sunrise') { setSunriseThemeIndex();};
+    if (storedValue === 'solarized-light') { setSolarizedLightThemeIndex();};
+    if (storedValue === 'solarized-dark') { setSolarizedDarkThemeIndex();};
 }
 
 function checkThemePages() {
@@ -37,6 +45,8 @@ function checkThemePages() {
     if (storedValue === 'dark') { setDarkThemePages();};
     if (storedValue === 'hicf') { setHiCfThemePages();};
     if (storedValue === 'sunrise') { setSunriseThemePages();};
+    if (storedValue === 'solarized-light') { setSolarizedLightThemePages();};
+    if (storedValue === 'solarized-dark') { setSolarizedDarkThemePages();};
 }
 
 function checkThemeBlogPages() {
@@ -45,6 +55,8 @@ function checkThemeBlogPages() {
     if (storedValue === 'dark') { setDarkThemeBlogPages();};
     if (storedValue === 'hicf') { setHiCfThemeBlogPages();};
     if (storedValue === 'sunrise') { setSunriseThemeBlogPages();};
+    if (storedValue === 'solarized-light') { setSolarizedLightThemeBlogPages();};
+    if (storedValue === 'solarized-dark') { setSolarizedDarkThemeBlogPages();};
 }
 
 
@@ -68,6 +80,16 @@ function setSunriseThemePages() {
     sessionStorage.setItem("theme", "sunrise");
 }
 
+function setSolarizedLightThemePages() {
+    document.getElementById('stylesheet').href='../css/global-solarized-light.css';
+    sessionStorage.setItem("theme", "solarized-light");
+}
+
+function setSolarizedDarkThemePages() {
+    document.getElementById('stylesheet').href='../css/global-solarized-dark.css';
+    sessionStorage.setItem("theme", "solarized-dark");
+}
+
 
 function setLightThemeBlogPages() {
     document.getElementById('stylesheet').href='../../css/global.css';
@@ -87,6 +109,16 @@ function setHiCfThemeBlogPages() {
 function setSunriseThemeBlogPages() {
     document.getElementById('stylesheet').href='../../css/global-sunrise.css';
     sessionStorage.setItem("theme", "sunrise");
+}
+
+function setSolarizedLightThemeBlogPages() {
+    document.getElementById('stylesheet').href='../../css/global-solarized-light.css';
+    sessionStorage.setItem("theme", "solarized-light");
+}
+
+function setSolarizedDarkThemeBlogPages() {
+    document.getElementById('stylesheet').href='../../css/global-solarized-dark.css';
+    sessionStorage.setItem("theme", "solarized-dark");
 }
 
 
