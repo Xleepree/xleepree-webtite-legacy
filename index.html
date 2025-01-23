@@ -6,20 +6,17 @@
     <link rel="icon" type="image/x-icon" href="images/icons/profil-web.ico">
     <link id="stylesheet" rel="stylesheet" href="css/global.css">
     <script src="js/theme-handler.js"></script>
+    <script src="js/page-loader.js"></script>
   </head>
 
   <script>
-    window.onload = checkThemeIndex() 
+    window.onload = checkThemeIndex()
   </script>
 
-  <body>
+  <body onload="loadNavIndex(); loadBannerIndex(); loadFooterIndex();">
 
-    <div class="container">
-      <a href="index.html">home</a>
-      <a href="pages/blog.html">blog</a>
-      <a href="pages/projects.html">projects</a>
-      <a href="pages/changelog.html">changelog</a>
-      <a href="pages/about.html">about</a>
+    <div id="nav" class="container" onclick="loadNavIndex()">
+      <p>navigation..</p>
     </div>
 
     <div class="banner">
@@ -78,34 +75,8 @@
       <p><b>Q: Where's the source code?</b><br>A: you can view it with inspect element or in the <a href="https://github.com/Xleepree/xleepree_webtite">github repo</a></p>
     </div>
 
-    <div class="footer">
-      <button
-      onclick="setLightThemeIndex()">light
-      </button>
-
-      <button
-      onclick="setDarkThemeIndex()">dark
-      </button>
-
-      <button
-      onclick="setHiCfThemeIndex()">high contrast
-      </button>
-
-      <button
-      onclick="setSunriseThemeIndex()">sunrise
-      </button>
-
-      <button
-      onclick="setSolarizedLightThemeIndex()">solarized light
-      </button>
-
-      <button
-      onclick="setSolarizedDarkThemeIndex()">solarized dark
-      </button>
-
-      <hr>
-      <p><small>{ © 2024 xleepree :: since nov 3, 2024 :: hosted with cloudflare }</small></p>
-      <a href="https://github.com/Xleepree/xleepree_webtite">repository</a> | <a href="mailto:xleepree.pages.mail@gmail.com">contact</a>
+    <div id="footer" class="footer">
+      <p>footer..</p>
     </div>
 
   </body>
