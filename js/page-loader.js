@@ -1,6 +1,6 @@
 function loadFooterIndex() {
     document.getElementById("footer").innerHTML = 
-    "<button onclick='setLightThemeIndex()'>light</button> <button onclick='setDarkThemeIndex()'>dark</button> <button onclick='setHiCfThemeIndex()'>high contrast</button> <button onclick='setSunriseThemeIndex()'>sunrise</button> <button onclick='setSolarizedLightThemeIndex()'>solarized light</button> <button onclick='setSolarizedDarkThemeIndex()'>solarized dark</button> <hr> <p><small>since nov 3, 2024 :: hosted with cloudflare </small></p> <a href='https://github.com/Xleepree/xleepree_webtite'>repository</a> | <a href='mailto:xleepree.pages.mail@gmail.com'>contact</a>";
+    "<button onclick='setLightThemeIndex()'>light</button> <button onclick='setDarkThemeIndex()'>dark</button> <button onclick='setHiCfThemeIndex()'>high contrast</button> <button onclick='setSunriseThemeIndex()'>sunrise</button> <button onclick='setSolarizedLightThemeIndex()'>solarized light</button> <button onclick='setSolarizedDarkThemeIndex()'>solarized dark</button> <hr> <p><small>since nov 3, 2024 :: hosted with cloudflare </small></p> <a href='https://github.com/Xleepree/xleepree_webtite'>repository</a> <a href='mailto:xleepree.pages.mail@gmail.com'>contact</a>";
 }
 
 function loadNavIndex() {
@@ -17,7 +17,7 @@ function loadBannerIndex() {
 
 function loadFooterPages() {
     document.getElementById("footer").innerHTML = 
-    "<button onclick='setLightThemePages()'>light</button> <button onclick='setDarkThemePages()'>dark</button> <button onclick='setHiCfThemePages()'>high contrast</button> <button onclick='setSunriseThemePages()'>sunrise</button> <button onclick='setSolarizedLightThemePages()'>solarized light</button> <button onclick='setSolarizedDarkThemePages()'>solarized dark</button> <hr> <p><small>since nov 3, 2024 :: hosted with cloudflare </small></p> <a href='https://github.com/Xleepree/xleepree_webtite'>repository</a> | <a href='mailto:xleepree.pages.mail@gmail.com'>contact</a>"
+    "<button onclick='setLightThemePages()'>light</button> <button onclick='setDarkThemePages()'>dark</button> <button onclick='setHiCfThemePages()'>high contrast</button> <button onclick='setSunriseThemePages()'>sunrise</button> <button onclick='setSolarizedLightThemePages()'>solarized light</button> <button onclick='setSolarizedDarkThemePages()'>solarized dark</button> <hr> <p><small>since nov 3, 2024 :: hosted with cloudflare </small></p> <a href='https://github.com/Xleepree/xleepree_webtite'>repository</a> <a href='mailto:xleepree.pages.mail@gmail.com'>contact</a>"
 }
 
 function loadBannerPages() {
@@ -44,6 +44,6 @@ function loadBannerBlogPages() {
 
 function loadFooterBlogPages() {
     document.getElementById("footer").innerHTML = 
-    "<button onclick='setLightThemeBlogPages()'>light</button> <button onclick='setDarkThemeBlogPages()'>dark</button> <button onclick='setHiCfThemeBlogPages()'>high contrast</button> <button onclick='setSunriseThemeBlogPages()'>sunrise</button> <button onclick='setSolarizedLightThemeBlogPages()'>solarized light</button> <button onclick='setSolarizedDarkThemeBlogPages()'>solarized dark</button> <hr> <p><small>since nov 3, 2024 :: hosted with cloudflare </small></p> <a href='https://github.com/Xleepree/xleepree_webtite'>repository</a> | <a href='mailto:xleepree.pages.mail@gmail.com'>contact</a>"
+    "<button onclick='setLightThemeBlogPages()'>light</button> <button onclick='setDarkThemeBlogPages()'>dark</button> <button onclick='setHiCfThemeBlogPages()'>high contrast</button> <button onclick='setSunriseThemeBlogPages()'>sunrise</button> <button onclick='setSolarizedLightThemeBlogPages()'>solarized light</button> <button onclick='setSolarizedDarkThemeBlogPages()'>solarized dark</button> <hr> <p><small>since nov 3, 2024 :: hosted with cloudflare </small></p> <a href='https://github.com/Xleepree/xleepree_webtite'>repository</a> <a href='mailto:xleepree.pages.mail@gmail.com'>contact</a>"
 }
 
