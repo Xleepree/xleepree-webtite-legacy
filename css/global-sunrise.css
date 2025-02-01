@@ -5,7 +5,7 @@
 }
 
 html {
-    background-image: linear-gradient(to top, rgb(255, 128, 181),rgb(255, 155, 152),rgb(255, 193, 152), rgb(255, 231, 152), white);
+    background-image: linear-gradient(to top, rgb(255, 100, 52),rgb(255, 160, 52) );
 }
 
 body {
@@ -19,7 +19,7 @@ body {
     padding: 1em;
     margin: 0 auto 1em auto;
     max-width: 55em;
-    background-image: linear-gradient(rgb(114, 143, 236),rgb(242, 146, 255),rgb(255, 128, 181),rgb(255, 155, 152),rgb(255, 193, 152), rgb(255, 231, 152), white);
+    background-image: linear-gradient(rgb(255, 100, 52),rgb(255, 160, 52) );
 }
 
 .footer {
@@ -29,7 +29,7 @@ body {
     max-width: 50em;
     text-align: center;
     padding: 1em;
-    background-image: linear-gradient(rgb(114, 143, 236),rgb(242, 146, 255),rgb(255, 128, 181),rgb(255, 155, 152),rgb(255, 193, 152), rgb(255, 231, 152), white);
+    background-image: linear-gradient(rgb(255, 100, 52),rgb(255, 160, 52) );
 }
 
 .banner {
@@ -39,7 +39,7 @@ body {
 }
 
 button {
-    background-color: rgb(255, 152, 83);
+    background-color: rgb(154, 194, 255);
     color: black;
     border-radius: 15px;
     transition: background-color 0.5s;
@@ -55,25 +55,25 @@ li {
 }
 
 a:link {
-    color: rgb(0, 105, 109);
+    color: rgb(121, 58, 58);
     text-decoration: none;
     transition: font-size 0.5s;
 }
 
 a:visited {
-    color: rgb(0, 105, 109);
+    color: rgb(121, 58, 58);
     text-decoration: none;
 }
 
 a:hover {
-    color: rgb(97, 38, 38);
+    color: rgb(163, 40, 40);
     font-weight: bold;
     text-decoration: underline;
     font-size: 130%;
 }
 
 a:active {
-    color: rgb(97, 38, 38);
+    color: rgb(163, 40, 40);
     font-weight: bolder;
     text-decoration: none;
 }
