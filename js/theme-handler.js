@@ -28,6 +28,11 @@ function setSolarizedDarkThemeIndex() {
     localStorage.setItem("theme", "solarized-dark");
 }
 
+function setTerminalThemeIndex() {
+    document.getElementById('stylesheet').href='css/global-terminal.css';
+    localStorage.setItem("theme", "terminal")
+}
+
 
 function checkThemeIndex() {
     var storedValue = localStorage.getItem('theme'); 
@@ -37,6 +42,7 @@ function checkThemeIndex() {
     if (storedValue === 'sunrise') { setSunriseThemeIndex();};
     if (storedValue === 'solarized-light') { setSolarizedLightThemeIndex();};
     if (storedValue === 'solarized-dark') { setSolarizedDarkThemeIndex();};
+    if (storedValue === 'terminal') { setTerminalThemeIndex();};
 }
 
 function checkThemePages() {
@@ -47,6 +53,7 @@ function checkThemePages() {
     if (storedValue === 'sunrise') { setSunriseThemePages();};
     if (storedValue === 'solarized-light') { setSolarizedLightThemePages();};
     if (storedValue === 'solarized-dark') { setSolarizedDarkThemePages();};
+    if (storedValue === 'terminal') { setTerminalThemePages();};
 }
 
 function checkThemeBlogPages() {
@@ -57,6 +64,7 @@ function checkThemeBlogPages() {
     if (storedValue === 'sunrise') { setSunriseThemeBlogPages();};
     if (storedValue === 'solarized-light') { setSolarizedLightThemeBlogPages();};
     if (storedValue === 'solarized-dark') { setSolarizedDarkThemeBlogPages();};
+    if (storedValue === 'terminal') { setTerminalThemeBlogPages();};
 }
 
 
@@ -90,6 +98,11 @@ function setSolarizedDarkThemePages() {
     localStorage.setItem("theme", "solarized-dark");
 }
 
+function setTerminalThemePages() {
+    document.getElementById('stylesheet').href='../css/global-terminal.css';
+    localStorage.setItem("theme", "terminal")
+}
+
 
 function setLightThemeBlogPages() {
     document.getElementById('stylesheet').href='../../css/global.css';
@@ -119,6 +132,11 @@ function setSolarizedLightThemeBlogPages() {
 function setSolarizedDarkThemeBlogPages() {
     document.getElementById('stylesheet').href='../../css/global-solarized-dark.css';
     localStorage.setItem("theme", "solarized-dark");
+}
+
+function setTerminalThemeBlogPages() {
+    document.getElementById('stylesheet').href='../../css/global-terminal.css';
+    localStorage.setItem("theme", "terminal")
 }
 
 
