@@ -33,6 +33,10 @@ function setTerminalThemeIndex() {
     localStorage.setItem("theme", "terminal")
 }
 
+function setDurpyDooThemeIndex() {
+    document.getElementById('stylesheet').href='css/global-durpydoo.css';
+    localStorage.setItem("theme", "durpydoo")
+}
 
 function checkThemeIndex() {
     var storedValue = localStorage.getItem('theme'); 
@@ -43,6 +47,7 @@ function checkThemeIndex() {
     if (storedValue === 'solarized-light') { setSolarizedLightThemeIndex();};
     if (storedValue === 'solarized-dark') { setSolarizedDarkThemeIndex();};
     if (storedValue === 'terminal') { setTerminalThemeIndex();};
+    if (storedValue === 'durpydoo') { setDurpyDooThemeIndex();};
 }
 
 function checkThemePages() {
@@ -54,6 +59,7 @@ function checkThemePages() {
     if (storedValue === 'solarized-light') { setSolarizedLightThemePages();};
     if (storedValue === 'solarized-dark') { setSolarizedDarkThemePages();};
     if (storedValue === 'terminal') { setTerminalThemePages();};
+    if (storedValue === 'durpydoo') { setDurpyDooThemePages();};
 }
 
 function checkThemeBlogPages() {
@@ -65,6 +71,7 @@ function checkThemeBlogPages() {
     if (storedValue === 'solarized-light') { setSolarizedLightThemeBlogPages();};
     if (storedValue === 'solarized-dark') { setSolarizedDarkThemeBlogPages();};
     if (storedValue === 'terminal') { setTerminalThemeBlogPages();};
+    if (storedValue === 'durpydoo') { setDurpyDooThemeBlogPages();};
 }
 
 
@@ -103,6 +110,11 @@ function setTerminalThemePages() {
     localStorage.setItem("theme", "terminal")
 }
 
+function setDurpyDooThemePages() {
+    document.getElementById('stylesheet').href='../css/global-durpydoo.css';
+    localStorage.setItem("theme", "durpydoo")
+}
+
 
 function setLightThemeBlogPages() {
     document.getElementById('stylesheet').href='../../css/global.css';
@@ -137,6 +149,11 @@ function setSolarizedDarkThemeBlogPages() {
 function setTerminalThemeBlogPages() {
     document.getElementById('stylesheet').href='../../css/global-terminal.css';
     localStorage.setItem("theme", "terminal")
+}
+
+function setDurpyDooThemeBlogPages() {
+    document.getElementById('stylesheet').href='../../css/global-durpydoo.css';
+    localStorage.setItem("theme", "durpydoo")
 }
 
 
