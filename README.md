@@ -1,5 +1,5 @@
-## xleepree.pages.dev
+## xleepree-old.pages.dev
 
-welcome to the repository for my website<br>
-look aroudn or something<br>
-this website is soon to be legacy
+this is not the repository of my current website by the way<br>
+look aroudn or go to the current one
+
